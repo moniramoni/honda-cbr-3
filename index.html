@@ -5,15 +5,96 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Honda CBR</title>
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <!-- bootstrap css -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- favicon -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        body{
+            font-family: 'Poppins', sans-serif;
+        }
+        .bg{
+            background-color: #264653;
+        }
+        .p{
+            padding: 80px 0px 80px 0px;
+        }
+        .h1{
+            font-weight: 600;
+            font-size: 48px;
+            line-height: 1.5em;
+        }
+        .image{
+            background-image: image();
+        }
+        button{
+            background-color: #E76F51;
+            padding: 8px 50px;
+            border: 0px;
+            border-radius: 3px;
+            margin-top: 18px;
+        }
+        .login-btn{
+            background-color: #E76F51;
+            padding: 5px 30px 5px 30px;
+            border-radius: 3px;
+            margin-left: 70px;
+            margin-right: 60px;
+            font-size: 18px;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <h1>Honda</h1>
+        <section class="container-fluid bg">
+            <div class="d-flex justify-content-end">
+                <nav class="navbar navbar-expand-lg navbar-light bg pt-5 me-5">
+                    <div class="container-fluid">                     
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                          <li class="nav-item">
+                            <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link active text-light" aria-current="page" href="#">Shop</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link active text-light" aria-current="page" href="#">News</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link active text-light" aria-current="page" href="#">Contact</a>
+                          </li>
+                        </ul>
+                        <a class="navbar-brand text-light login-btn" href="#">Login</a>
+                      </div>
+                    </div>
+                  </nav>
+            </div>
+            <div class="d-flex justify-content-evenly align-items-center p pt-5 mt-5">
+                <div>
+                    <p class="text-light">Computer-controlled digital transistorized with electronic advance</p>
+                    <h1 class="text-light h1">Honda CBR 300R</h1>
+                    <p class="text-light">Honda CBR 300R is the most stylish and dashing bike. To see <br> Honda CBR 300R Price In BD and showroom with details see <br> here colours and some new features.</p>
+                    <button class="text-light">Purchase</button>
+                </div>
+                <div>
+                    <img src="images/header-bike.png" alt="">
+                </div>
+            </div>
+        </section>
     </header>
     <main>
-
+        <section class="container mt-5">
+            <h1 class="text-center">Fetured Bikes 2021</h1>
+            <p class="text-center">Best bike collection</p>
+        </section>
     </main>
 
     <!-- javascript -->
