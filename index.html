@@ -46,6 +46,14 @@
             margin-right: 60px;
             font-size: 18px;
         }
+        .img{
+            filter: grayscale(100%);
+        }
+        .img:hover{
+            filter: grayscale(0%)
+        }
+        
+        
     </style>
 </head>
 <body>
@@ -91,9 +99,22 @@
         </section>
     </header>
     <main>
-        <section class="container mt-5">
-            <h1 class="text-center">Fetured Bikes 2021</h1>
-            <p class="text-center">Best bike collection</p>
+        <section class="container my-5">
+            <div class="pt-4">
+                <h1 class="text-center h1">Fetured Bikes 2021</h1>
+                <p class="text-center" style="color: #E76F51;">Best bike collection</p>
+            </div>
+            <div class="d-flex justify-content-center align-items-center py-5 my-5">
+                <div>
+                    <img class="img-fluid img" src="images/header-bike.png" alt="">
+                </div>
+                <div>
+                    <img class="img-fluid" src="images/header-bike.png" alt="">
+                </div>
+                <div>
+                    <img class="img-fluid img" src="images/header-bike.png" alt="">
+                </div>
+            </div>
         </section>
     </main>
 
